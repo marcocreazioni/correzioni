@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+
+    .Immagini {
+      display: flex; 
+      margin-bottom: 20px; 
+      width: 100%;
+      border: 1px solid;
+      
+      
+       }
+
+    img {
+      width: 25%; 
+      height: auto; 
+      margin-bottom: 10px;
+      margin-right: 5px; 
+      margin-left: 5px;
+     
+      
+    }
+    /*classe genitore */
+    .titolo {
+    font-size: small;
+      text-align: center;
+      margin-top: 5px;
+      width: 50%;
+      border: 1px solid;
+      background-size: cover;
+      height: 200px;
+    
+    
+    }
+    /*variante figlia */
+    .uno {
+     background-image: url('https://i.guim.co.uk/img/media/fbb1974c1ebbb6bf4c4beae0bb3d9cb93901953c/80_0_2400_1440/master/2400.jpg?width=1200&quality=85&auto=format&fit=max&s=33af5d8dd21ef9e8614e074c9a8fc068');
+           
+    } 
+    /*variante figlia */
+    .due {
+   
+     background-image: url('https://upload.wikimedia.org/wikipedia/it/2/22/Dune2020verme.png');
+    
+      
+    } 
+   
+   
+   
+   
+   
+    .h1 {
+      /*font-size: small;
+        text-align: center;
+        text-size-adjust: 5px;*/
+      
+    }
+
+    a {color: white;
+       font-size: 24pt;
+       text-decoration: none;
+       text-shadow: 1px 1px black;
+}    
+  </style>
+  <title>Film 2024</title>
+</head>
+<body>
+
+
+  <div class="Immagini">
+    
+    <div class="titolo uno">  
+    <br>
+    <img src="https://pngimg.com/uploads/moon/moon_PNG51.png"><br>
+    <a target="_blank" href="https://www.imdb.com/title/tt11315808/">Joker:Folie à Deux</a>
+		
+    </div> 
+   <div class="titolo due">
+    <br>
+    <a target="_blank" href="https://www.imdb.com/title/tt15239678/?ref_=fn_al_tt_1">Dune - Parte 2</a>
+	</div>
+ </div>
+
+  <div class="Immagini">
+    <div class="titolo"></div>
+    <img src="Kraven.jpg" alt="Kraven">
+    <a target="_blank" href="https://www.imdb.com/title/tt8790086/?ref_=nv_sr_srsg_0_tt_6_nm_2_q_kraven" rel="nofollow" title="Kraven foto">Kraven</a>
+    
+    <img src="Ghostbusters - Minaccia glaciale.jpg" alt="Ghostbusters - Minaccia glaciale">
+    <a target="_blank" href="https://www.imdb.com/title/tt21235248/?ref_=nv_sr_srsg_0_tt_8_nm_0_q_ghostbuster">Ghostbusters - Minaccia glaciale</a>
+    <div class="titolo"></div>
+</div>
+
+  <div class="Immagini">
+    <img src="Deadpool3.jpg" alt="Deadpool 3">
+    <a target="_blank" href="https://www.imdb.com/title/tt6263850/?ref_=nv_sr_srsg_0_tt_7_nm_1_q_deadpool">Deadpool 3</a>
+
+    <div class="titolo"></div>
+    <img src="KungFuPanda4.jpg" alt="KungFuPanda4">
+    <a target="_blank" href="https://www.imdb.com/title/tt21692408/?ref_=nv_sr_srsg_0_tt_8_nm_0_q_kung%2520fu%2520">Kung Fu Panda 4</a>
+    <div class="titolo"></div>
+  </div>
+
+</body>
+</html>
