@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Boxmodel</title>
+
+<style>
+
+* {margin: 0px;
+}
+.primo {
+background-color:rgb(40, 53, 78);
+text-align:center;
+width: 50%;
+float: left;
+}
+.primo2 {
+float: right;
+background-color:rgb(40, 53, 78);
+text-align:center;
+width:50%;
+float: right;
+}
+
+
+.secondo{
+
+text-align:center;
+width: 50%;
+background-color: bisque;
+float:left;
+}
+.secondo2{
+text-align:center;
+width: 50%;
+background-color: bisque;
+float: right;
+width:50%;
+}
+
+
+.terzo
+{text-align:center;
+    background-color: aquamarine;
+    float: left;
+    width:50%;
+}
+.terzo2 {text-align:center;
+   ;background-color: aquamarine;
+    float: right;
+    width:50%;
+}
+
+.contenitore {width:100%;
+              clear: both;
+              
+}
+
+</style>
+
+</head>
+<body>
+<div class="contenitore">
+
+
+   <div class="primo">
+   <h1>Cometa</h1>      
+    <figure>
+   <img src="https://pngimg.com/uploads/comet/comet_PNG36.png" widht="50%" height="225">
+  </div>
+
+   <div class="primo2">
+    <h1>Montagna</h1>
+    <img class="montagna" src="https://pngimg.com/uploads/mountain/mountain_PNG21.png"widht="50%" height="225px"></div>
+    </div>
+</div>
+<div class="contenitore">
+   
+    <div class="secondo">
+    <h1>Foresta</h1>
+    <img src="https://pngimg.com/uploads/forest/forest_PNG48.png" widht="50%" height="225px">
+     </div>
+
+    <div class="secondo2">
+    <h1>Vulcano</h1>
+    <img class="vulcano2" src="https://pngimg.com/uploads/volcano/volcano_PNG47.png" widht="50%" height="225px">
+    </div>
+</div>
+
+<div class="contenitore">
+
+    <div class="terzo">
+    <h1>Mare</h1>
+    <img src="https://pngimg.com/uploads/sea/sea_PNG17.png"widht="50%" height="225px">
+     </div>
+
+    <div class="terzo2">
+    <h1>Giungla</h1>
+    <img class="giungla2"src="https://pngimg.com/uploads/jungle/jungle_PNG30.png"widht="50%" height="225px">
+    </div>
+</div>
+
+</body>
+</html>
